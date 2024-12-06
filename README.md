@@ -1,18 +1,26 @@
  <p>
-  <img src="/images/logo.png.png" width="100%" alt="logo" width="550px">
+  <img src="/images/logo.png.png" width="70%" alt="logo" width="550px">
  </p>
  
- ## TRABALHO NOPE ##
+ ## 📈 DOCUMENTAÇÃO TRABALHO NOPE ##
 
  - Empreendorismo 
  - Tecnologia e Inovação
  - Empresa
  - NA Invest
 
- ## Anotações ##
+ ## ✔️ Anotações ##
  
  - Conteúdo
  - Assunto 
  - Prática
 
- 
+ ## 👨🏻‍💻👩🏻‍💻 PARTICIPANTES ##
+
+ - Augusto
+ - Nicolly
+ - Alysson 
+ - Nicolas
+ - Laura
+
+ ## 📝 Contéudo ##

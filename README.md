@@ -1,5 +1,5 @@
  <p>
-  <img src="/images/logo.png.png" width="100%" alt="logo" width="850px">
+  <img src="/images/logo.png.png" width="100%" alt="logo" width="550px">
  </p>
  
  ## TRABALHO NOPE ##

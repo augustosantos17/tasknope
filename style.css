@@ -1,0 +1,196 @@
+/* Estilização global */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1390ca, #ffffff);
+    color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Container principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaça login e footer */
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho (menu) */
+  .menu {
+    
+    width: 35%;
+    padding: 15px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 600px;
+    background: linear-gradient(to bottom, #edf2f3, #0d9fe2);
+    animation: fadeIn 1s ease-in-out;
+    border-radius: 12px;
+    
+  }
+  
+  .menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Estilo para o Login */
+.login {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    top: 170px;
+    position: absolute;
+    animation: fadeIn 1s ease-in-out; /* Animação suave ao carregar */
+  }
+  
+  .login h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .login p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f5;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group:focus-within {
+    border-color: #0078d4; /* Cor ao focar */
+  }
+  
+  .input-group label {
+    color: #999;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .login button {
+    background: linear-gradient(90deg, #0078d4, #0056b3);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .login button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #0056b3, #003f82);
+  }
+  
+  .options {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .options a {
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .options a:hover {
+    color: #0056b3;
+  }
+  
+  /* Animação ao carregar */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* Rodapé (seções) */
+  .sections {
+    display: flex;
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    gap: 20px;
+    background-color: #f8f9fa;
+    padding: 20px 10px;
+    width: 100%; /* Faz o rodapé ocupar a largura total */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
